@@ -2,11 +2,6 @@
 
 > AI-powered credit card optimizer. Know which card to use for every purchase and where your portfolio is leaking rewards.
 
-![Node.js](https://img.shields.io/badge/Node.js-18+-339933?style=flat&logo=node.js&logoColor=white)
-![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=black)
-![Claude API](https://img.shields.io/badge/Claude-Sonnet-D97706?style=flat)
-![License](https://img.shields.io/badge/license-MIT-blue?style=flat)
-
 -----
 
 ## What is KYC?
