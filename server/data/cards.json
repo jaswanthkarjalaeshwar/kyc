@@ -1,0 +1,570 @@
+[
+  {
+    "id": "chase-sapphire-preferred",
+    "name": "Chase Sapphire Preferred",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 95,
+    "reward_currency": "points",
+    "reward_program": "Chase Ultimate Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.02,
+    "apr_range": { "low": 21.49, "high": 28.49 },
+    "credit_score_required": "excellent",
+    "card_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/preferred",
+    "image_color": "#1a3a5c",
+    "reward_tiers": [
+      { "category": "dining", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Includes takeout and eligible delivery services. Does not include grocery stores." },
+      { "category": "travel", "earn_rate": 5, "cap_amount": null, "cap_period": null, "notes": "5x on travel via Chase Travel portal. 2x on all other travel purchases." },
+      { "category": "streaming", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Select streaming services including Netflix, Spotify, Hulu." }
+    ]
+  },
+  {
+    "id": "chase-sapphire-reserve",
+    "name": "Chase Sapphire Reserve",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 550,
+    "reward_currency": "points",
+    "reward_program": "Chase Ultimate Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.015,
+    "apr_range": { "low": 22.49, "high": 29.49 },
+    "credit_score_required": "excellent",
+    "card_url": "https://creditcards.chase.com/rewards-credit-cards/sapphire/reserve",
+    "image_color": "#2d2d2d",
+    "reward_tiers": [
+      { "category": "dining", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "travel", "earn_rate": 10, "cap_amount": null, "cap_period": null, "notes": "10x on hotels and car rentals via Chase Travel; 5x on flights via Chase Travel; 3x on all other travel after $300 travel credit" }
+    ]
+  },
+  {
+    "id": "amex-gold",
+    "name": "American Express Gold Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "annual_fee": 250,
+    "reward_currency": "points",
+    "reward_program": "Amex Membership Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.02,
+    "apr_range": { "low": 21.99, "high": 29.99 },
+    "credit_score_required": "good",
+    "card_url": "https://www.americanexpress.com/us/credit-cards/card/gold-card/",
+    "image_color": "#c8a951",
+    "reward_tiers": [
+      { "category": "dining", "earn_rate": 4, "cap_amount": null, "cap_period": null, "notes": "Worldwide restaurants" },
+      { "category": "groceries", "earn_rate": 4, "cap_amount": 25000, "cap_period": "annual", "notes": "U.S. supermarkets only. Does not include Walmart or Target." },
+      { "category": "travel", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Flights booked directly with airlines or via amextravel.com" },
+      { "category": "online_shopping", "earn_rate": 4, "cap_amount": null, "cap_period": null, "notes": "U.S. online retailers" }
+    ]
+  },
+  {
+    "id": "amex-platinum",
+    "name": "American Express Platinum Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "annual_fee": 695,
+    "reward_currency": "points",
+    "reward_program": "Amex Membership Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.02,
+    "apr_range": { "low": 21.99, "high": 29.99 },
+    "credit_score_required": "excellent",
+    "card_url": "https://www.americanexpress.com/us/credit-cards/card/platinum/",
+    "image_color": "#8c9099",
+    "reward_tiers": [
+      { "category": "travel", "earn_rate": 5, "cap_amount": null, "cap_period": null, "notes": "5x on flights booked directly with airlines or via amextravel.com. 5x on prepaid hotels booked via amextravel.com." }
+    ]
+  },
+  {
+    "id": "citi-double-cash",
+    "name": "Citi Double Cash Card",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.02,
+    "cpp": 1,
+    "apr_range": { "low": 19.24, "high": 29.24 },
+    "credit_score_required": "good",
+    "card_url": "https://www.citi.com/credit-cards/citi-double-cash-credit-card",
+    "image_color": "#003b70",
+    "reward_tiers": []
+  },
+  {
+    "id": "citi-custom-cash",
+    "name": "Citi Custom Cash Card",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 19.24, "high": 29.24 },
+    "credit_score_required": "good",
+    "card_url": "https://www.citi.com/credit-cards/citi-custom-cash-credit-card",
+    "image_color": "#00a651",
+    "reward_tiers": [
+      { "category": "everything_else", "earn_rate": 0.05, "cap_amount": 500, "cap_period": "monthly", "notes": "5% on your single highest spend category each billing cycle only, up to $500/month. Only one category qualifies per cycle. 1% on all other purchases." }
+    ]
+  },
+  {
+    "id": "discover-it-cash-back",
+    "name": "Discover it Cash Back",
+    "issuer": "Discover",
+    "network": "Discover",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 17.24, "high": 28.24 },
+    "credit_score_required": "fair",
+    "card_url": "https://www.discover.com/credit-cards/cash-back/",
+    "image_color": "#ff6600",
+    "reward_tiers": [
+      { "category": "dining", "earn_rate": 0.05, "cap_amount": 1500, "cap_period": "quarterly", "notes": "Rotating 5% categories change each quarter and must be activated. Check discover.com/credit-cards/cash-back/rotating-categories.html for current quarter categories." },
+      { "category": "gas", "earn_rate": 0.05, "cap_amount": 1500, "cap_period": "quarterly", "notes": "Rotating 5% categories change each quarter and must be activated." }
+    ]
+  },
+  {
+    "id": "capital-one-venture-x",
+    "name": "Capital One Venture X",
+    "issuer": "Capital One",
+    "network": "Visa",
+    "annual_fee": 395,
+    "reward_currency": "miles",
+    "reward_program": "Capital One Miles",
+    "base_earn_rate": 2,
+    "cpp": 0.01,
+    "apr_range": { "low": 19.99, "high": 29.99 },
+    "credit_score_required": "excellent",
+    "card_url": "https://creditcards.capitalone.com/venture-x-credit-card/",
+    "image_color": "#1a1a2e",
+    "reward_tiers": [
+      { "category": "travel", "earn_rate": 10, "cap_amount": null, "cap_period": null, "notes": "10x miles on hotels and rental cars booked via Capital One Travel; 5x on flights via Capital One Travel" }
+    ]
+  },
+  {
+    "id": "capital-one-savor-one",
+    "name": "Capital One SavorOne",
+    "issuer": "Capital One",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 19.99, "high": 29.99 },
+    "credit_score_required": "good",
+    "card_url": "https://creditcards.capitalone.com/savor-one-credit-card/",
+    "image_color": "#8b1a1a",
+    "reward_tiers": [
+      { "category": "dining", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "groceries", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": "Excludes superstores like Walmart and Target" },
+      { "category": "entertainment", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "streaming", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": "Popular streaming services" },
+      { "category": "transit", "earn_rate": 0.05, "cap_amount": null, "cap_period": null, "notes": "Uber and Uber Eats" }
+    ]
+  },
+  {
+    "id": "wells-fargo-active-cash",
+    "name": "Wells Fargo Active Cash",
+    "issuer": "Wells Fargo",
+    "network": "Visa",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.02,
+    "cpp": 1,
+    "apr_range": { "low": 20.24, "high": 29.99 },
+    "credit_score_required": "good",
+    "card_url": "https://creditcards.wellsfargo.com/active-cash-credit-card/",
+    "image_color": "#c41230",
+    "reward_tiers": []
+  },
+  {
+    "id": "blue-cash-preferred-amex",
+    "name": "Blue Cash Preferred — Amex",
+    "issuer": "American Express",
+    "network": "Amex",
+    "annual_fee": 95,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 19.24, "high": 29.99 },
+    "credit_score_required": "good",
+    "card_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/",
+    "image_color": "#007bc0",
+    "reward_tiers": [
+      { "category": "groceries", "earn_rate": 0.06, "cap_amount": 6000, "cap_period": "annual", "notes": "U.S. supermarkets only. Not valid at superstores or warehouse clubs." },
+      { "category": "streaming", "earn_rate": 0.06, "cap_amount": null, "cap_period": null, "notes": "Select U.S. streaming subscriptions" },
+      { "category": "transit", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": "Taxis, rideshare, parking, tolls, trains, buses" },
+      { "category": "gas", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": "U.S. gas stations" }
+    ]
+  },
+  {
+    "id": "chase-freedom-unlimited",
+    "name": "Chase Freedom Unlimited",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 0,
+    "reward_currency": "points",
+    "reward_program": "Chase Ultimate Rewards",
+    "base_earn_rate": 1.5,
+    "cpp": 0.01,
+    "apr_range": { "low": 20.49, "high": 29.24 },
+    "credit_score_required": "good",
+    "card_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/unlimited",
+    "image_color": "#1a6b3c",
+    "reward_tiers": [
+      { "category": "dining", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Restaurants and drugstores" },
+      { "category": "drugstore", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "travel", "earn_rate": 5, "cap_amount": null, "cap_period": null, "notes": "Travel purchased through Chase Travel portal" }
+    ]
+  },
+  {
+    "id": "chase-freedom-flex",
+    "name": "Chase Freedom Flex",
+    "issuer": "Chase",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "reward_currency": "points",
+    "reward_program": "Chase Ultimate Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.01,
+    "apr_range": { "low": 20.49, "high": 29.24 },
+    "credit_score_required": "good",
+    "card_url": "https://creditcards.chase.com/cash-back-credit-cards/freedom/flex",
+    "image_color": "#1a3a5c",
+    "reward_tiers": [
+      { "category": "dining", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Restaurants and drugstores" },
+      { "category": "drugstore", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "travel", "earn_rate": 5, "cap_amount": null, "cap_period": null, "notes": "Travel purchased through Chase Travel portal" },
+      { "category": "groceries", "earn_rate": 5, "cap_amount": 1500, "cap_period": "quarterly", "notes": "Rotating 5% categories — varies by quarter. Activation required." },
+      { "category": "gas", "earn_rate": 5, "cap_amount": 1500, "cap_period": "quarterly", "notes": "Rotating 5% categories — varies by quarter. Activation required." }
+    ]
+  },
+  {
+    "id": "bank-of-america-premium-rewards",
+    "name": "Bank of America Premium Rewards",
+    "issuer": "Bank of America",
+    "network": "Visa",
+    "annual_fee": 95,
+    "reward_currency": "points",
+    "reward_program": "Bank of America Rewards",
+    "base_earn_rate": 1.5,
+    "cpp": 0.01,
+    "apr_range": { "low": 20.24, "high": 27.24 },
+    "credit_score_required": "excellent",
+    "card_url": "https://www.bankofamerica.com/credit-cards/products/premium-rewards-credit-card/",
+    "image_color": "#e31837",
+    "reward_tiers": [
+      { "category": "travel", "earn_rate": 2, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "dining", "earn_rate": 2, "cap_amount": null, "cap_period": null, "notes": null }
+    ]
+  },
+  {
+    "id": "usaa-cashback-rewards-plus",
+    "name": "USAA Cashback Rewards Plus",
+    "issuer": "USAA",
+    "network": "Visa",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 15.15, "high": 28.40 },
+    "credit_score_required": "good",
+    "card_url": "https://www.usaa.com/inet/wc/bank-credit-card-cashback-rewards-plus",
+    "image_color": "#003087",
+    "reward_tiers": [
+      { "category": "gas", "earn_rate": 0.05, "cap_amount": 3000, "cap_period": "annual", "notes": "Gas stations and military base commissaries" },
+      { "category": "groceries", "earn_rate": 0.02, "cap_amount": null, "cap_period": null, "notes": "Grocery stores and commissaries" }
+    ]
+  },
+  {
+    "id": "apple-card",
+    "name": "Apple Card",
+    "issuer": "Goldman Sachs",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": "Daily Cash",
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 19.24, "high": 29.49 },
+    "credit_score_required": "fair",
+    "card_url": "https://www.apple.com/apple-card/",
+    "image_color": "#f5f5f7",
+    "reward_tiers": [
+      { "category": "online_shopping", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": "3% on Apple purchases and select merchants (Uber, Eats, Walgreens, Nike, Panera, etc.)" },
+      { "category": "dining", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": "Panera Bread specifically; 2% when using Apple Pay at restaurants" },
+      { "category": "transit", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": "Uber and Uber Eats" }
+    ]
+  },
+  {
+    "id": "bilt-mastercard",
+    "name": "Bilt Mastercard",
+    "issuer": "Wells Fargo",
+    "network": "Mastercard",
+    "annual_fee": 0,
+    "reward_currency": "points",
+    "reward_program": "Bilt Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.0125,
+    "apr_range": { "low": 21.24, "high": 29.24 },
+    "credit_score_required": "good",
+    "card_url": "https://www.biltrewards.com/card",
+    "image_color": "#1c1c1e",
+    "reward_tiers": [
+      { "category": "dining", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "On the first day of the month (Rent Day), dining earns 6x" },
+      { "category": "travel", "earn_rate": 2, "cap_amount": null, "cap_period": null, "notes": "On the first day of the month (Rent Day), travel earns 4x" }
+    ]
+  },
+  {
+    "id": "us-bank-altitude-go",
+    "name": "U.S. Bank Altitude Go",
+    "issuer": "U.S. Bank",
+    "network": "Visa",
+    "annual_fee": 0,
+    "reward_currency": "points",
+    "reward_program": "U.S. Bank Altitude Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.01,
+    "apr_range": { "low": 18.24, "high": 29.24 },
+    "credit_score_required": "good",
+    "card_url": "https://www.usbank.com/credit-cards/altitude-go-visa-signature-credit-card.html",
+    "image_color": "#0066b3",
+    "reward_tiers": [
+      { "category": "dining", "earn_rate": 4, "cap_amount": null, "cap_period": null, "notes": "Takeout and food delivery included" },
+      { "category": "groceries", "earn_rate": 2, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "gas", "earn_rate": 2, "cap_amount": null, "cap_period": null, "notes": "EV charging stations included" },
+      { "category": "streaming", "earn_rate": 2, "cap_amount": null, "cap_period": null, "notes": null }
+    ]
+  },
+  {
+    "id": "ink-business-preferred",
+    "name": "Ink Business Preferred",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 95,
+    "reward_currency": "points",
+    "reward_program": "Chase Ultimate Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.02,
+    "apr_range": { "low": 21.24, "high": 26.24 },
+    "credit_score_required": "good",
+    "card_url": "https://creditcards.chase.com/business-credit-cards/ink/preferred",
+    "image_color": "#2d5016",
+    "reward_tiers": [
+      { "category": "travel", "earn_rate": 3, "cap_amount": 150000, "cap_period": "annual", "notes": "Combined with shipping, advertising, internet/cable/phone" },
+      { "category": "online_shopping", "earn_rate": 3, "cap_amount": 150000, "cap_period": "annual", "notes": "Social media and search engine advertising" }
+    ]
+  },
+  {
+    "id": "marriott-bonvoy-boundless",
+    "name": "Marriott Bonvoy Boundless",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 95,
+    "reward_currency": "points",
+    "reward_program": "Marriott Bonvoy",
+    "base_earn_rate": 2,
+    "cpp": 0.007,
+    "apr_range": { "low": 21.49, "high": 28.49 },
+    "credit_score_required": "good",
+    "card_url": "https://creditcards.chase.com/travel-credit-cards/marriott-bonvoy/boundless",
+    "image_color": "#8b4513",
+    "reward_tiers": [
+      { "category": "travel", "earn_rate": 6, "cap_amount": null, "cap_period": null, "notes": "6x Bonvoy points at Marriott hotels. Additional points earned via Bonvoy status are separate from card earnings." },
+      { "category": "dining", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "groceries", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "gas", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": null }
+    ]
+  },
+  {
+    "id": "united-explorer",
+    "name": "United Explorer Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 95,
+    "reward_currency": "miles",
+    "reward_program": "United MileagePlus",
+    "base_earn_rate": 1,
+    "cpp": 0.012,
+    "apr_range": { "low": 21.99, "high": 28.99 },
+    "credit_score_required": "good",
+    "card_url": "https://creditcards.chase.com/travel-credit-cards/united/explorer",
+    "image_color": "#005daa",
+    "reward_tiers": [
+      { "category": "travel", "earn_rate": 2, "cap_amount": null, "cap_period": null, "notes": "2x on United purchases, hotels, and restaurants" },
+      { "category": "dining", "earn_rate": 2, "cap_amount": null, "cap_period": null, "notes": null }
+    ]
+  },
+  {
+    "id": "pnc-cash-rewards",
+    "name": "PNC Cash Rewards Visa",
+    "issuer": "PNC",
+    "network": "Visa",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 18.24, "high": 28.24 },
+    "credit_score_required": "good",
+    "card_url": "https://www.pnc.com/en/personal-banking/banking/credit-cards/pnc-cash-rewards-visa-credit-card.html",
+    "image_color": "#f15a22",
+    "reward_tiers": [
+      { "category": "gas", "earn_rate": 0.04, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "dining", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "groceries", "earn_rate": 0.02, "cap_amount": null, "cap_period": null, "notes": null }
+    ]
+  },
+  {
+    "id": "synchrony-amazon-prime",
+    "name": "Amazon Prime Rewards Visa",
+    "issuer": "Synchrony",
+    "network": "Visa",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 19.49, "high": 27.49 },
+    "credit_score_required": "fair",
+    "card_url": "https://www.amazon.com/Amazon-Prime-Rewards-Visa-Signature-Card/dp/B01COJUUB8",
+    "image_color": "#ff9900",
+    "reward_tiers": [
+      { "category": "online_shopping", "earn_rate": 0.05, "cap_amount": null, "cap_period": null, "notes": "5% at Amazon.com and Whole Foods Market only. Requires active Prime membership." },
+      { "category": "dining", "earn_rate": 0.02, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "gas", "earn_rate": 0.02, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "transit", "earn_rate": 0.02, "cap_amount": null, "cap_period": null, "notes": "Drug stores" }
+    ]
+  },
+  {
+    "id": "costco-anywhere-visa",
+    "name": "Costco Anywhere Visa by Citi",
+    "issuer": "Citi",
+    "network": "Visa",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 20.49, "high": 20.49 },
+    "credit_score_required": "excellent",
+    "card_url": "https://www.citi.com/credit-cards/costco-anywhere-visa-credit-card-by-citi",
+    "image_color": "#005daa",
+    "reward_tiers": [
+      { "category": "gas", "earn_rate": 0.04, "cap_amount": 7000, "cap_period": "annual", "notes": "4% on eligible gas and EV charging. 1% after $7,000 annually." },
+      { "category": "travel", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": "3% on eligible travel purchases." },
+      { "category": "dining", "earn_rate": 0.03, "cap_amount": null, "cap_period": null, "notes": "3% at restaurants worldwide." }
+    ]
+  },
+  {
+    "id": "navy-federal-more-rewards",
+    "name": "Navy Federal More Rewards Amex",
+    "issuer": "Navy Federal",
+    "network": "Amex",
+    "annual_fee": 0,
+    "reward_currency": "points",
+    "reward_program": "Navy Federal Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.01,
+    "apr_range": { "low": 14.90, "high": 18.00 },
+    "credit_score_required": "fair",
+    "card_url": "https://www.navyfederal.org/loans-cards/credit-cards/more-rewards.html",
+    "image_color": "#003087",
+    "reward_tiers": [
+      { "category": "groceries", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Supermarkets, bakeries, dairy and health food stores" },
+      { "category": "dining", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "gas", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Gas stations and transit" },
+      { "category": "transit", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": null }
+    ]
+  },
+  {
+    "id": "amex-blue-cash-everyday",
+    "name": "Blue Cash Everyday — Amex",
+    "issuer": "American Express",
+    "network": "Amex",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 19.24, "high": 29.99 },
+    "credit_score_required": "good",
+    "card_url": "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/",
+    "image_color": "#00175A",
+    "reward_tiers": [
+      { "category": "groceries", "earn_rate": 0.03, "cap_amount": 6000, "cap_period": "annual", "notes": "U.S. supermarkets only. Not valid at superstores." },
+      { "category": "online_shopping", "earn_rate": 0.03, "cap_amount": 6000, "cap_period": "annual", "notes": "U.S. online retailers" },
+      { "category": "gas", "earn_rate": 0.03, "cap_amount": 6000, "cap_period": "annual", "notes": "U.S. gas stations" }
+    ]
+  },
+  {
+    "id": "amex-everyday",
+    "name": "Amex EveryDay Credit Card",
+    "issuer": "American Express",
+    "network": "Amex",
+    "annual_fee": 0,
+    "reward_currency": "points",
+    "reward_program": "Amex Membership Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.02,
+    "apr_range": { "low": 18.24, "high": 29.24 },
+    "credit_score_required": "good",
+    "card_url": "https://www.americanexpress.com/us/credit-cards/card/amex-everyday/",
+    "image_color": "#006FCF",
+    "reward_tiers": [
+      { "category": "groceries", "earn_rate": 2, "cap_amount": 6000, "cap_period": "annual", "notes": "U.S. supermarkets. Use 20+ times per billing period to earn 20% more points." }
+    ]
+  },
+  {
+    "id": "chase-ink-business-cash",
+    "name": "Ink Business Cash Credit Card",
+    "issuer": "Chase",
+    "network": "Visa",
+    "annual_fee": 0,
+    "reward_currency": "cashback",
+    "reward_program": null,
+    "base_earn_rate": 0.01,
+    "cpp": 1,
+    "apr_range": { "low": 18.49, "high": 24.49 },
+    "credit_score_required": "good",
+    "card_url": "https://creditcards.chase.com/business-credit-cards/ink/cash",
+    "image_color": "#1A6B3C",
+    "reward_tiers": [
+      { "category": "online_shopping", "earn_rate": 0.05, "cap_amount": 25000, "cap_period": "annual", "notes": "Office supply stores, internet, cable, and phone services (combined $25K cap)" },
+      { "category": "gas", "earn_rate": 0.02, "cap_amount": 25000, "cap_period": "annual", "notes": "Gas stations and restaurants (combined $25K cap)" },
+      { "category": "dining", "earn_rate": 0.02, "cap_amount": 25000, "cap_period": "annual", "notes": "Gas stations and restaurants (combined $25K cap)" }
+    ]
+  },
+  {
+    "id": "citi-premier",
+    "name": "Citi Premier Card",
+    "issuer": "Citi",
+    "network": "Mastercard",
+    "annual_fee": 95,
+    "reward_currency": "points",
+    "reward_program": "Citi ThankYou Rewards",
+    "base_earn_rate": 1,
+    "cpp": 0.017,
+    "apr_range": { "low": 21.24, "high": 29.24 },
+    "credit_score_required": "good",
+    "card_url": "https://www.citi.com/credit-cards/citi-premier-credit-card",
+    "image_color": "#003B70",
+    "reward_tiers": [
+      { "category": "travel", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Hotels and air travel" },
+      { "category": "dining", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": null },
+      { "category": "groceries", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Supermarkets" },
+      { "category": "gas", "earn_rate": 3, "cap_amount": null, "cap_period": null, "notes": "Gas stations" }
+    ]
+  }
+]
